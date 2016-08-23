@@ -313,4 +313,24 @@
     <UnlocalizedDescription>furn_small_landing_pad_desc</UnlocalizedDescription>
   </Furniture>
 
+  <Furniture objectType="Food Replicator">
+    <Name>Food Replicator</Name>
+    <Description>A machine capable of creating food on demand</Description>
+    <TypeTag>Workstation</TypeTag>
+    <MovementCost>1</MovementCost>
+    <Width>1</Width>
+    <Height>1</Height>
+    <Power>-1</Power>
+
+    <BuildingJob jobTime="5">
+    </BuildingJob>
+
+    <JobSpotOffset X="0" Y="-1" />
+    <JobSpawnSpotOffset X="0" Y="0" />
+
+    <LocalizationCode>food_replicator</LocalizationCode>
+    <UnlocalizedDescription>food_replicator_desc</UnlocalizedDescription>
+
+  </Furniture>
+
 </Furnitures>

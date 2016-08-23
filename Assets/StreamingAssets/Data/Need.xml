@@ -12,4 +12,17 @@
 		<HighToLow>true</HighToLow>
 		<Localization>need_oxygen</Localization>
     </Need>
+
+  <Need needType="Food">
+    <Name>Food</Name>
+    <GrowthRate>0.4</GrowthRate>
+    <GrowthInVacuum>0.6</GrowthInVacuum>
+    <RestoreNeedFurnitureType>Food Replicator</RestoreNeedFurnitureType>
+    <RestoreNeedTime>3</RestoreNeedTime>
+    <RestoreNeedAmount>100</RestoreNeedAmount>
+    <Damage>20</Damage>
+    <CompleteOnFail>false</CompleteOnFail>
+    <HighToLow>true</HighToLow>
+    <Localization>need_food</Localization>
+  </Need>
 </Needs>
